@@ -4,7 +4,7 @@ import 'package:connectivity/connectivity.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
-import 'package:to_do_app/model/task_model.dart';
+import 'package:task_manager/model/task_model.dart';
 import '../../data/network/firebase/firebase_services.dart';
 class DbHelper
 {
