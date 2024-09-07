@@ -18,7 +18,7 @@ The Task Management App allows users to create, edit, and organize their tasks e
 ## Installation
 
 1. Clone this repository using:
-git clone https://github.com/sabonaterefe/task_management_app.git
+https://github.com/sabonaterefe/TaskManagement/tree/master
 
 Navigate to the project directory:
 cd task_management_app
