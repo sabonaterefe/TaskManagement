@@ -19,9 +19,13 @@
 ## Installation
 Clone this repository using:
 git clone https://github.com/sabonaterefe/TaskManagement.git
+
    
 Navigate to the project directory:
 cd TaskManagement
+
+Then run this command:
+git checkout -b master origin/master
 
 Install dependencies: 
 flutter pub get
