@@ -3,12 +3,12 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:to_do_app/Data/shared%20pref/shared_pref.dart';
-import 'package:to_do_app/model/task_model.dart';
-import 'package:to_do_app/utils/utils.dart';
+import 'package:task_manager/Data/shared pref/shared_pref.dart';
+import 'package:task_manager/model/task_model.dart';
+import 'package:task_manager/utils/utils.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:to_do_app/view%20model/controller/signin_controller.dart';
-import 'package:to_do_app/view/home%20page/home_page.dart';
+import 'package:task_manager/view/model/controller/signin_controller.dart';
+import 'package:task_manager/view/home page/home_page.dart';
 import '../../../view model/controller/signup_controller.dart';
 
 
