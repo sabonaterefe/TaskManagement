@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:to_do_app/utils/utils.dart';
+import 'package:task_manager/utils/utils.dart';
 import '../../data/network/firebase/firebase_services.dart';
 
 class SignupController extends GetxController{
