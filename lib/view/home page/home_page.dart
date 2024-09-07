@@ -4,13 +4,13 @@ import 'package:task_manager/res/app_color.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:task_manager/res/assets/app_icons.dart';
 import 'package:task_manager/utils/utils.dart';
-import 'package:task_manager/view_model/controller/home_controller.dart';
-import 'package:task_manager/view/common_widgets/back_button.dart';
-import 'package:task_manager/view/home_page/components/progress_task.dart';
-import 'package:task_manager/view/home_page/components/search_field.dart';
-import 'package:task_manager/view/new_task/new_task.dart';
-import 'package:task_manager/models/quote.dart';
-import 'package:task_manager/services/quote_service.dart';
+import 'package:task_manager/view model/controller/home_controller.dart';
+import 'package:task_manager/view/common widgets/back_button.dart';
+import 'package:task_manager/view/home page/components/progress_task.dart';
+import 'package:task_manager/view/home page/components/search_field.dart';
+import 'package:task_manager/view/new task/new_task.dart';
+import 'package:task_manager/model/quote.dart';
+import 'package:task_manager/view model/services/quote_service.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({super.key});
