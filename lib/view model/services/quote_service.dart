@@ -1,7 +1,7 @@
 // services/quote_service.dart
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../models/quote.dart';
+import '../../model/quote.dart';
 
 class QuoteService {
   final String url = 'https://type.fit/api/quotes';
