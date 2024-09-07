@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:to_do_app/model/task_model.dart';
-import 'package:to_do_app/utils/utils.dart';
-import 'package:to_do_app/view%20model/DbHelper/db_helper.dart';
-import 'package:to_do_app/view%20model/controller/home_controller.dart';
-import 'package:to_do_app/view/new%20task/components/progress_picker.dart';
+import 'package:task_manager/model/task_model.dart';
+import 'package:task_manager/utils/utils.dart';
+import 'package:task_manager/view%20model/DbHelper/db_helper.dart';
+import 'package:task_manager/view%20model/controller/home_controller.dart';
+import 'package:task_manager/view/new%20task/components/progress_picker.dart';
 
 class AddTaskController extends GetxController{
   final DbHelper database=DbHelper();
