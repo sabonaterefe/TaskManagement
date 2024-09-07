@@ -2,10 +2,10 @@ import 'package:connectivity/connectivity.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:to_do_app/Data/network/firebase/firebase_services.dart';
-import 'package:to_do_app/Data/shared%20pref/shared_pref.dart';
-import 'package:to_do_app/utils/utils.dart';
-import 'package:to_do_app/view%20model/DbHelper/db_helper.dart';
+import 'package:task_manager/Data/network/firebase/firebase_services.dart';
+import 'package:task_manager/Data/shared pref/shared_pref.dart';
+import 'package:task_manager/utils/utils.dart';
+import 'package:task_manager/view model/DbHelper/db_helper.dart';
 import '../../model/task_model.dart';
 
 class HomeController extends GetxController {
