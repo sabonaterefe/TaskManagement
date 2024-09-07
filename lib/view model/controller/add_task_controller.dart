@@ -4,9 +4,9 @@ import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 import 'package:task_manager/model/task_model.dart';
 import 'package:task_manager/utils/utils.dart';
-import 'package:task_manager/view%20model/DbHelper/db_helper.dart';
-import 'package:task_manager/view%20model/controller/home_controller.dart';
-import 'package:task_manager/view/new%20task/components/progress_picker.dart';
+import 'package:task_manager/view model/DbHelper/db_helper.dart';
+import 'package:task_manager/view model/controller/home_controller.dart';
+import 'package:task_manager/view/new task/components/progress_picker.dart';
 
 class AddTaskController extends GetxController{
   final DbHelper database=DbHelper();
